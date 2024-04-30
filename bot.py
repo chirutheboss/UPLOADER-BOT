@@ -3,6 +3,7 @@
 # (c) Shrimadhav U K | Modifieded By : @DC4_WARRIOR
 
 import os
+import time
 import logging
 from config import Config
 from pyrogram import Client as Clinton
@@ -21,4 +22,5 @@ if __name__ == "__main__" :
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     plugins=plugins)
+    time.sleep(10)
     Warrior.run()
